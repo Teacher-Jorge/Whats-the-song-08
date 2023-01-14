@@ -7,7 +7,7 @@ let btnTranslate = document.getElementById('translate')
 btnTranslate.addEventListener('click', function() {
     let audio = document.getElementById('click')
     audio.play()
-    btnTranslate.innerHTML = 'Tive minha cota de areia jogada em minha face mas sobrevivi. Nós somos os campeões...'
+    btnTranslate.innerHTML = 'Tive minha cota de areia chutada em minha face mas sobrevivi. Nós somos os campeões...'
     btnTranslate.style.boxShadow = '1px 1px 1px black'
     setTimeout(function()
     {
